@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return About;
 });
+Route::get('/me', function () {
+    return ME;
+});
